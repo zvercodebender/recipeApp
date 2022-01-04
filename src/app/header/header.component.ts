@@ -13,7 +13,7 @@ export class HeaderCompont {
     collapsed = true;
 
     onSelect( feature: string ) {
-        console.error("Setting feature to " + feature);
+        console.log("Setting feature to " + feature);
         this.featureSelected.emit( feature );
       }
 }

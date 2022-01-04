@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'recipeApp';
 
   onNavigate( feature: string ) {
-    console.log("onNavigate");
+    console.log("onNavigate " + feature);
     this.loadedFeature = feature;
   }
 }
